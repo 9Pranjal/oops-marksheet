@@ -1,0 +1,40 @@
+.marksheet{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    margin: 0 auto;
+    border: 3px solid black;
+    height: 500px;
+    width: 500px;
+    background-color: #faeede;
+    align-items: center;
+    padding: 0 20px;
+    display: none;
+}
+h1{
+    margin-left: 35px;
+    color: rgb(255, 55, 55);
+    text-decoration: underline;
+}
+table {
+    border: 1px black solid;
+    padding: 20px;
+}
+.resultPrint{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.resultPrint td{
+    margin-bottom: 13px;
+}
+.student-detail{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.result-detail{
+    border: 1px solid black;
+    justify-content: space-around;
+    display: flex;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MARKSHEET</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <table>
+
+        <tr>
+            <td>enter name : </td>
+            <td><input type="text" id="name"></td>
+        </tr>
+        <tr>
+            <td>enter age : </td>
+            <td><input type="text" id="age"></td>
+        </tr>
+        <tr>
+            <td>enter std : </td>
+            <td><input type="text" id="std"></td>
+        </tr>
+        <tr>
+            <td>enter marks of maths : </td>
+            <td><input type="text" id="mathsMarks"></td>
+        </tr>
+        <tr>
+            <td>enter marks of physics : </td>
+            <td><input type="text" id="physicsMarks"></td>
+        </tr>
+        <tr>
+            <td>enter marks of chemistry : </td>
+            <td><input type="text" id="chemMarks"></td>
+        </tr>
+        <tr>
+            <td>enter marks of computer : </td>
+            <td><input type="text" id="compMarks"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" name="" id="submitbtn" onclick="return generateResult ()"></td>
+        </tr>
+
+    </table>
+
+        <div class="marksheet" id="marksheet">
+            <h1>smt L.P.SAVANI vidhyabhavan</h1>
+
+           <div class="student-detail">
+                <h3></h3>
+                <h4 id="ageR"></h4>
+                <h4 id="stdR"></h4>
+           </div>
+     
+
+            <div class="result-detail">
+                
+                <div class="subjects">
+                    <h3 style="text-decoration: underline;">SUBJECTS</h3>
+                    <h4>MATHS</h4>
+                    <h4>PHYSICS</h4>
+                    <h4>CHEMISTRY</h4>
+                    <h4>COMPUTER</h4>
+                </div>
+                <div class="marks">
+                    <h3 style="text-decoration: underline;">MARKS</h3>
+                    <h4 id="sub1M" style="font-weight: bolder;"></h4>
+                    <h4 id="sub2M" style="font-weight: bolder;"></h4> 
+                    <h4 id="sub3M" style="font-weight: bolder;"></h4>
+                    <h4 id="sub4M" style="font-weight: bolder;"></h4>
+                </div>
+               
+            </div>
+            <div class="totalMarks">
+                <h4 id="totalMarks">
+                    
+                </h4>
+            </div>
+        </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
